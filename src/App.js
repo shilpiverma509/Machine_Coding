@@ -36,7 +36,7 @@ class App extends React.Component {
   search = this.debounce(async (query) => {
     try {
       const octokit = new Octokit({
-        auth: "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",
+        auth: "",
       });
       const response = await octokit.request("GET /search/users", {
         q: query,
