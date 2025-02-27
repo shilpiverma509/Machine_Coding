@@ -1,0 +1,9 @@
+.outer-container{
+  border:1px solid black;
+  margin : 10px 0;
+}
+
+.inner-container{
+  background-color: green;
+  transition: transform .5s ease-in-out;
+}
